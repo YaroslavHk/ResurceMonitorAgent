@@ -65,6 +65,7 @@ impl AgentResponse {
 
 #[tokio::main]
 async fn main() {
+
     let server_url = "wss://darkened-paragraph-stump.ngrok-free.dev/ws/agent";
 
     let node_id = machine_uid::get().unwrap_or_else(|_| {

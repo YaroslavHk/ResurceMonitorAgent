@@ -12,6 +12,7 @@ tokio-tungstenite = { version = "0.21", features = ["native-tls"] }
 futures-util = "0.3"
 machine-uid = "0.3"
 nvml-wrapper = "0.10.0"
+winres = "0.1"
 
 [target.'cfg(target_os = "windows")'.dependencies]
 wmi = "0.13"
